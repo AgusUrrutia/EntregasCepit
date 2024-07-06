@@ -3,14 +3,15 @@
 import * as rls from "readline-sync";
 
 let nro : number = rls.questionInt("Escriba un numero-->  ");
+console.log(parImpar(nro));
 
-
-console.log(nro);
-
-if(nro % 2 == 0 && nro != 0){
-    console.log('El numero "'+  nro+ '" es par');
-}if(nro % 2 == 1){
-    console.log('El numero "'+ nro +'" es impar');
-}else{
-    console.log('El numero ingresado es "'+ nro +'"');
+function parImpar(num: number): string {
+    if(num % 2 == 0 && num != 0){
+        return'El numero "'+  num+ '" es par';
+    }if(num % 2 == 1){
+        return 'El numero "'+ num +'" es impar';
+    }else{
+        return 'El numero ingresado es "'+ num +'"';
+    }
 }
+
