@@ -7,7 +7,7 @@
 
 import * as rls from "readline-sync";
 
-let base : number = rls.questionInt("Escriba una base 👉   ");
+let base : number = rls.questionInt('Escriba una base:  =>   ');
 //lo hago de ésta manera solo para que se manifeste el metodo una vez se haya ingresado
 //una base en el "question" anterior👽
 console.log("El resultado es:    " + ingresarExponente(base) + "   😎");
@@ -20,7 +20,7 @@ function ingresarExponente(base: number) : number {
     let flag : boolean = false; 
     let exponente : number = 0;
     while(flag === false){
-        exponente = rls.questionInt('Escriba un exponente valido (Mayor que "0") 👉   ');
+        exponente = rls.questionInt('Escriba un exponente valido (Mayor que "0") =>   ');
         //if ternario
         exponente < 0 ? flag = false : flag = true;
     }
