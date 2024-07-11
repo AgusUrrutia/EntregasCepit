@@ -1,3 +1,8 @@
+
+// Canvas no es requerido para esta entrega
+// aún asi, elegí éste estilo de "neuronodos" para darle un fondo animado en forma de loop
+
+//si es requerido, doy documentacion del mismo...
 const canvas = document.querySelector('canvas');
 
 canvas.width = window.innerWidth;
