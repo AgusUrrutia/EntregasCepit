@@ -94,3 +94,14 @@ footer{
     box-sizing: border-box;
     border: dashed 2px black;
 }
+.ocultar{
+    visibility: hidden;
+}
+.divs{
+    width: 500px;
+    height: 200px;
+    background-color: #9084D8;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid 2px black;
+}
